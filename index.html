@@ -22,7 +22,7 @@
 
   <!-- Hero Section -->
   <section class="relative bg-blue-700 text-white py-20 px-6 text-center">
-    <div class="absolute inset-0 bg-cover bg-center opacity-30" style="background-image: url('https://source.unsplash.com/1600x900/?technology');"></div>
+    <div class="absolute inset-0 bg-cover bg-center opacity-30" style="background-image: url('assets/img1.jpg');"></div>
     <div class="relative z-10">
       <h1 class="text-4xl md:text-5xl font-bold leading-tight mb-4">Bangun Website Impian Anda Bersama Mufasite</h1>
       <p class="text-lg md:text-xl mb-6">Layanan pembuatan website profesional untuk kebutuhan bisnis, portofolio, atau pribadi Anda.</p>
@@ -30,26 +30,251 @@
     </div>
   </section>
 
-  <!-- Services Section -->
-  <section id="services" class="py-16 px-6 bg-gray-100">
-    <div class="max-w-7xl mx-auto text-center">
-      <h2 class="text-3xl font-bold mb-8">Layanan Kami</h2>
-      <div class="grid grid-cols-1 md:grid-cols-3 gap-12">
-        <div class="bg-white p-8 rounded-lg shadow-lg">
-          <h3 class="text-xl font-semibold mb-4">Desain Website</h3>
-          <p>Menciptakan desain website yang menarik dan responsif sesuai dengan kebutuhan bisnis Anda.</p>
+  <section id="service" class="relative w-full h-auto bg-white halamanEmpat">
+    <section class="containerr mx-auto px-4 py-8 bg-transparent w-[90vw]  ">
+      <h1 class="text-2xl text-white font-bold text-center mb-8 mt-8 ">Our Services</h1>
+      <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-9 ">
+
+        <div data-aos="fade-up" data-aos-duration="4000"
+          class="bg-gradient-to-r from-white to-gray-100 shadow-md rounded-lg overflow-hidden hover:scale-[1.03] transition-all duration-300 flex flex-col h-full"
+          style="
+          box-shadow: 0px 10px 20px rgba(190, 190, 190, 0.3), 0px 6px 6px rgba(191, 190, 190, 0.2); transition: all 0.3s ease-in-out">
+          <!-- Gambar -->
+          <div class="relative">
+            <img src="assets/web3.jpg" alt="Web3" class="w-full h-[180px] object-cover md:h-auto">
+          </div>
+
+          <!-- Konten Teks -->
+          <div class="flex-1 py-2 px-3 md:p-4">
+            <h2 class="text-lg font-bold mb-1 sm:mb-2">Web3 Development</h2>
+            <p class="text-gray-600">Develop DApps and implement smart contracts.</p>
+          </div>
+
+          <!-- Tombol Learn More -->
+          <div role="button" onclick="openModal()"
+            class="px-4 py-2 bg-blue-100 text-primary font-semibold text-center cursor-pointer hover:bg-blue-200 transition-all">
+            Learn More
+          </div>
         </div>
-        <div class="bg-white p-8 rounded-lg shadow-lg">
-          <h3 class="text-xl font-semibold mb-4">Pengembangan Website</h3>
-          <p>Mengembangkan website dengan teknologi terbaru, menjamin fungsionalitas dan kinerja yang optimal.</p>
+
+
+        <div data-aos="fade-up" data-aos-duration="4000"
+          class="bg-gradient-to-r from-white to-gray-100 shadow-md rounded-lg overflow-hidden hover:scale-[1.03] transition-all duration-300 flex flex-col h-full"
+          style="
+          box-shadow: 0px 10px 20px rgba(190, 190, 190, 0.3), 0px 6px 6px rgba(191, 190, 190, 0.2); transition: all 0.3s ease-in-out">
+          <!-- Gambar -->
+          <div class="relative">
+            <img src="assets/design.jpg" alt="Web3" class="w-full h-[180px] object-cover md:h-auto">
+          </div>
+
+          <!-- Konten Teks -->
+          <div class="flex-1 py-2 px-3 md:p-4">
+            <h2 class="text-lg font-bold mb-1 sm:mb-2">Web Designs</h2>
+            <p class="text-gray-600">Craft modern, user-friendly website designs.</p>
+          </div>
+
+          <!-- Tombol Learn More -->
+          <div role="button" onclick="openModal()"
+            class="px-4 py-2 bg-blue-100 text-primary font-semibold text-center cursor-pointer hover:bg-blue-200 transition-all">
+            Learn More
+          </div>
         </div>
-        <div class="bg-white p-8 rounded-lg shadow-lg">
-          <h3 class="text-xl font-semibold mb-4">Pemeliharaan & Dukungan</h3>
-          <p>Memberikan dukungan teknis dan pemeliharaan website untuk memastikan kelancaran operasional jangka panjang.</p>
+
+
+        <div data-aos="fade-up" data-aos-duration="4000"
+          class="bg-gradient-to-r from-white to-gray-100 shadow-md rounded-lg overflow-hidden hover:scale-[1.03] transition-all duration-300 flex flex-col h-full"
+          style="
+          box-shadow: 0px 10px 20px rgba(190, 190, 190, 0.3), 0px 6px 6px rgba(191, 190, 190, 0.2); transition: all 0.3s ease-in-out">
+          <!-- Gambar -->
+          <div class="relative">
+            <img src="assets/fe.jpg" alt="Web3" class="w-full h-[180px] object-cover md:h-auto">
+          </div>
+
+          <!-- Konten Teks -->
+          <div class="flex-1 py-2 px-3 md:p-4">
+            <h2 class="text-lg font-bold mb-1 sm:mb-2">Front end Development</h2>
+            <p class="text-gray-600">Build interactive and responsive user interfaces.</p>
+          </div>
+
+          <!-- Tombol Learn More -->
+          <div role="button" onclick="openModal()"
+            class="px-4 py-2 bg-blue-100 text-primary font-semibold text-center cursor-pointer hover:bg-blue-200 transition-all">
+            Learn More
+          </div>
+        </div>
+
+
+        <div data-aos="fade-up" data-aos-duration="4000"
+          class="bg-gradient-to-r from-white to-gray-100 shadow-md rounded-lg overflow-hidden hover:scale-[1.03] transition-all duration-300 flex flex-col h-full"
+          style="
+          box-shadow: 0px 10px 20px rgba(190, 190, 190, 0.3), 0px 6px 6px rgba(191, 190, 190, 0.2); transition: all 0.3s ease-in-out">
+          <!-- Gambar -->
+          <div class="relative">
+            <img src="assets/be.jpg" alt="Web3" class="w-full h-[180px] object-cover md:h-auto">
+          </div>
+
+          <!-- Konten Teks -->
+          <div class="flex-1 py-2 px-3 md:p-4">
+            <h2 class="text-lg font-bold mb-1 sm:mb-2">Back end Development</h2>
+            <p class="text-gray-600">Create robust servers and APIs for web apps.</p>
+          </div>
+
+          <!-- Tombol Learn More -->
+          <div role="button" onclick="openModal()"
+            class="px-4 py-2 bg-blue-100 text-primary font-semibold text-center cursor-pointer hover:bg-blue-200 transition-all">
+            Learn More
+          </div>
+        </div>
+
+
+        <div data-aos="fade-up" data-aos-duration="4000"
+          class="bg-gradient-to-r from-white to-gray-100 shadow-md rounded-lg overflow-hidden hover:scale-[1.03] transition-all duration-300 flex flex-col h-full"
+          style="
+          box-shadow: 0px 10px 20px rgba(190, 190, 190, 0.3), 0px 6px 6px rgba(191, 190, 190, 0.2); transition: all 0.3s ease-in-out">
+          <!-- Gambar -->
+          <div class="relative">
+            <img src="assets/seoo.jpg" alt="Web3" class="w-full h-[180px] object-cover md:h-auto">
+          </div>
+
+          <!-- Konten Teks -->
+          <div class="flex-1 py-2 px-3 md:p-4">
+            <h2 class="text-lg font-bold mb-1 sm:mb-2">SEO Optimization</h2>
+            <p class="text-gray-600">Optimize your website for better search engine rankings</p>
+          </div>
+
+          <!-- Tombol Learn More -->
+          <div role="button" onclick="openModal()"
+            class="px-4 py-2 bg-blue-100 text-primary font-semibold text-center cursor-pointer hover:bg-blue-200 transition-all">
+            Learn More
+          </div>
+        </div>
+
+
+        <div data-aos="fade-up" data-aos-duration="4000"
+          class="bg-gradient-to-r from-white to-gray-100 shadow-md rounded-lg overflow-hidden hover:scale-[1.03] transition-all duration-300 flex flex-col h-full"
+          style="
+          box-shadow: 0px 10px 20px rgba(190, 190, 190, 0.3), 0px 6px 6px rgba(191, 190, 190, 0.2); transition: all 0.3s ease-in-out">
+          <!-- Gambar -->
+          <div class="relative">
+            <img src="assets/websec.jpg" alt="Web3" class="w-full h-[180px] object-cover md:h-auto">
+          </div>
+
+          <!-- Konten Teks -->
+          <div class="flex-1 py-2 px-3 md:p-4">
+            <h2 class="text-lg font-bold mb-1 sm:mb-2">Web Security</h2>
+            <p class="text-gray-600">Protect your website from cyber threats and vulnerabilities.</p>
+          </div>
+
+          <!-- Tombol Learn More -->
+          <div role="button" onclick="openModal()"
+            class="px-4 py-2 bg-blue-100 text-primary font-semibold text-center cursor-pointer hover:bg-blue-200 transition-all">
+            Learn More
+          </div>
+        </div>
+
+
+        <div data-aos="fade-up" data-aos-duration="4000"
+          class="bg-gradient-to-r from-white to-gray-100 shadow-md rounded-lg overflow-hidden hover:scale-[1.03] transition-all duration-300 flex flex-col h-full"
+          style="
+          box-shadow: 0px 10px 20px rgba(190, 190, 190, 0.3), 0px 6px 6px rgba(191, 190, 190, 0.2); transition: all 0.3s ease-in-out">
+          <!-- Gambar -->
+          <div class="relative">
+            <img src="assets/webapp.jpg" alt="Web3" class="w-full h-[180px] object-cover md:h-auto">
+          </div>
+
+          <!-- Konten Teks -->
+          <div class="flex-1 py-2 px-3 md:p-4">
+            <h2 class="text-lg font-bold mb-1 sm:mb-2">Web App Development</h2>
+            <p class="text-gray-600">Develop DApps and implement smart contracts.</p>
+          </div>
+
+          <!-- Tombol Learn More -->
+          <div role="button" onclick="openModal()"
+            class="px-4 py-2 bg-blue-100 text-primary font-semibold text-center cursor-pointer hover:bg-blue-200 transition-all">
+            Learn More
+          </div>
+        </div>
+
+
+        <div data-aos="fade-up" data-aos-duration="4000"
+          class="bg-gradient-to-r from-white to-gray-100 shadow-md rounded-lg overflow-hidden hover:scale-[1.03] transition-all duration-300 flex flex-col h-full"
+          style="
+          box-shadow: 0px 10px 20px rgba(190, 190, 190, 0.3), 0px 6px 6px rgba(191, 190, 190, 0.2); transition: all 0.3s ease-in-out">
+          <!-- Gambar -->
+          <div class="relative">
+            <img src="assets/deploy.jpg" alt="Web3" class="w-full h-[180px] object-cover md:h-auto">
+          </div>
+
+          <!-- Konten Teks -->
+          <div class="flex-1 py-2 px-3 md:p-4">
+            <h2 class="text-lg font-bold mb-1 sm:mb-2">Hosting & Deployment</h2>
+            <p class="text-gray-600">Set up hosting and deploy your web application.</p>
+          </div>
+
+          <!-- Tombol Learn More -->
+          <div role="button" onclick="openModal()"
+            class="px-4 py-2 bg-blue-100 text-primary font-semibold text-center cursor-pointer hover:bg-blue-200 transition-all">
+            Learn More
+          </div>
+        </div>
+        
+        <div data-aos="fade-up" data-aos-duration="4000"
+          class="bg-gradient-to-r from-white to-gray-100 shadow-md rounded-lg overflow-hidden hover:scale-[1.03] transition-all duration-300 flex flex-col h-full"
+          style="
+          box-shadow: 0px 10px 20px rgba(190, 190, 190, 0.3), 0px 6px 6px rgba(191, 190, 190, 0.2); transition: all 0.3s ease-in-out">
+          <!-- Gambar -->
+          <div class="relative">
+            <img src="assets/consul.jpg" alt="Web3" class="w-full h-[180px] object-cover md:h-auto">
+          </div>
+
+          <!-- Konten Teks -->
+          <div class="flex-1 py-2 px-3 md:p-4">
+            <h2 class="text-lg font-bold mb-1 sm:mb-2">IT Consultant</h2>
+            <p class="text-gray-600">Provide strategic IT solutions for your business.</p>
+          </div>
+
+          <!-- Tombol Learn More -->
+          <div role="button" onclick="openModal()"
+            class="px-4 py-2 bg-blue-100 text-primary font-semibold text-center cursor-pointer hover:bg-blue-200 transition-all">
+            Learn More
+          </div>
+        </div>
+
+
+
+
+
+      </div>
+    </section>
+
+    <!-- modal -->
+    <div id="modal" class="modal backdrop-brightness-50 w-full h-screen fixed top-0 left-0 z-50 hidden ">
+      <div
+        class="p-6 bg-gradient-to-r from-white  to-gray-100 w-[90%] max-w-2xl h-auto rounded-lg shadow-lg relative m-auto top-[15%] md:top-[25%] transform scale-95 transition-transform duration-300 ease-in-out">
+
+        <button onclick="closeModal()"
+          class="absolute top-3 right-3 text-gray-500 hover:text-gray-800 focus:outline-none">
+          <i class="fa-solid fa-xmark text-2xl"></i>
+        </button>
+
+        <div class="text-center">
+          <h2 class="text-2xl font-bold mb-4 text-gray-800">UI/UX Design</h2>
+          <p class="text-gray-600 mb-6">
+            Build high-quality and scalable web applications. Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+            Consequuntur, deserunt similique nemo ipsam repellat inventore eligendi tempore quisquam maxime ducimus non
+            quos cum quia libero mollitia. A doloribus ipsum fugit!
+          </p>
+
+          <button class="bg-blue-500 text-white py-2 px-6 rounded-lg shadow-md hover:bg-blue-600 transition-all">
+            Order Now
+          </button>
         </div>
       </div>
     </div>
+
+
   </section>
+
 
   <!-- Portfolio Section -->
   <section id="portfolio" class="py-16 px-6">
