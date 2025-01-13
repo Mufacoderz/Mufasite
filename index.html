@@ -6,10 +6,32 @@
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
   <title>Mufasite - Layanan Pembuatan Website</title>
   <script src="https://cdn.tailwindcss.com"></script>
+
+  <style>
+    @keyframes fade-in {
+        0% {
+            opacity: 0;
+            transform: translateY(20px);
+        }
+        100% {
+            opacity: 1;
+            transform: translateY(0);
+        }
+    }
+
+    .animate-fade-in {
+        animation: fade-in 1s ease-out forwards;
+    }
+
+    .animate-fade-in.delay-100 {
+        animation-delay: 0.1s;
+    }
+</style>
+
 </head>
 <body class="bg-gray-50 font-sans antialiased">
   <!-- Navbar -->
-  <nav class="fixed bg-blue-600 p-4 z-50 w-full">
+  <nav class="fixed bg-transparent backdrop-blur-sm p-4 z-50 w-full">
     <div class="max-w-7xl mx-auto flex justify-between items-center">
       <a href="#" class="text-white text-2xl font-bold">Mufasite</a>
       <div class="space-x-6">
@@ -21,17 +43,28 @@
   </nav>
 
   <!-- Hero Section -->
-  <section class="relative bg-gradient-to-r from-blue-800 via-blue-600 to-blue-500 text-white py-32 px-8 text-center flex items-center justify-center h-screen">
-    <div class="absolute inset-0 bg-cover bg-center opacity-50" style="background-image: url('assets/img1.jpg');"></div>
-    <div class="relative z-10 space-y-6 max-w-3xl">
-        <h1 class="text-4xl sm:text-5xl font-extrabold tracking-tight leading-tight text-shadow-md">Bangun Website Impian Anda Bersama Mufasite</h1>
-        <p class="text-lg sm:text-xl opacity-90 mb-8">Layanan pembuatan website profesional untuk bisnis, portofolio, atau pribadi Anda. Kami hadir untuk mewujudkan ide Anda menjadi kenyataan digital.</p>
-        <a href="#contact" class="bg-yellow-500 text-blue-800 py-4 px-8 rounded-full font-semibold text-lg transition-all hover:bg-yellow-400 hover:scale-105 transform shadow-xl duration-300 mt-4">
+  <section class="relative bg-gradient-to-r from-blue-900 via-blue-700 to-blue-500 text-white py-32 px-8 text-center flex items-center justify-center h-screen">
+    <!-- Latar Belakang dengan Blur -->
+    <div class="absolute inset-0 bg-cover bg-center filter backdrop-blur-md opacity-70" style="background-image: url('assets/img1.jpg');"></div>
+    
+    <!-- Konten -->
+    <div class="relative z-10 space-y-6 max-w-4xl">
+        <!-- Judul dengan Animasi -->
+        <h1 class="text-4xl sm:text-6xl font-extrabold tracking-tight leading-tight drop-shadow-lg animate-fade-in">
+            Bangun Website Impian Anda Bersama <span class="bg-gradient-to-r from-yellow-400 to-yellow-500 text-transparent bg-clip-text">Mufasite</span>
+        </h1>
+        
+        <!-- Deskripsi dengan Animasi -->
+        <p class="text-lg sm:text-2xl opacity-90 leading-relaxed animate-fade-in delay-100">
+            Layanan pembuatan website profesional untuk bisnis, portofolio, atau pribadi Anda. Kami hadir untuk mewujudkan ide Anda menjadi kenyataan digital.
+        </p>
+        
+        <!-- Tombol Interaktif -->
+        <a href="#contact" class="bg-yellow-500 text-blue-900 py-4 px-10 rounded-full font-semibold text-lg inline-block transition-transform transform hover:scale-110 hover:shadow-2xl duration-300 shadow-lg">
             Hubungi Kami
         </a>
     </div>
 </section>
-
 
 
   <section id="service" class="relative w-full h-auto bg-white halamanEmpat">
